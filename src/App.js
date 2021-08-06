@@ -1,11 +1,14 @@
 import './App.css';
 import Navigasion from './screens/navigationBar/navigationBar'
 import ParticleAnimation from 'react-particle-animation'
+import Header from './screens/header/Header';
+
 
 function App() {
   return (
     <div className="App">
       <Navigasion/>
+      <Header/>
       <ParticleAnimation
       id="tsparticles"
       style={{ height: '96vh'}}
