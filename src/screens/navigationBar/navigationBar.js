@@ -13,7 +13,10 @@ function creatLinks() {
 function navigationBar() {
     return (
         <div id='home'>
-            <Navbar className='navigation_container' expand='md'>
+            <Navbar className='navigation_container' 
+            style={{zIndex: '2', position: 'fixed', top: '0', width: '100%'}}
+            collapseOnSelect
+            expand='md'>
                 <Navbar.Brand style={{ marginLeft: '1rem' }} href='#home'> Sharon Wirtzer</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav/'></Navbar.Toggle>
                 <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderBlockColor: 'none'}}>
