@@ -1,11 +1,12 @@
-.portfolio{
-  background-color: aqua;
+#portfolio.portfolio_main-container,
+#portfolio_card_container{
+  background-color: rgb(54, 94, 94);
 }
 
-.portfolio_main_container h1,
-.portfolio_main_container p {
+#portfolio.portfolio_main-container h1,
+#portfolio.portfolio_main-container p {
 text-align: center;
-margin-top: 3rem;
+padding-top: 3rem;
 }
 
 #portfolio_card_container{
