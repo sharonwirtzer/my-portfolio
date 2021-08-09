@@ -1,14 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap");
 
-.App{
-    font-family: 'Nunito', sans-serif;
+h1 {
+    font-family: "Righteous", cursive;
 }
 
-:root{
- --nav-color: hsl(210,11%,15%);
- --nav-color-hover: hsl(210,11%,45%);
- --nav-border-color: hsl(210,11%,45%);
- --light-color: hsl(209deg 62% 30%);
- --font-color: hsl(0,0%,100%);
- --font-color-hover: hsl(0,0%,40%);
+.App {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    margin: 0;
+}
+
+:root {
+    --nav-color: hsl(210, 11%, 15%);
+    --nav-color-hover: hsl(210, 11%, 45%);
+    --nav-border-color: hsl(210, 11%, 45%);
+    --light-color: hsl(209deg 62% 30%);
+    --font-color: hsl(0, 0%, 100%);
+    --font-color-hover: hsl(0, 0%, 40%);
 }

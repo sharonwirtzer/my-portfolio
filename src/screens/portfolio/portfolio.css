@@ -1,40 +1,43 @@
 #portfolio.portfolio_main-container,
-#portfolio_card_container{
-  background-color: rgb(54, 94, 94);
+#portfolio_card_container {
+    background-color: hsl(210deg 27% 24%);
 }
 
 #portfolio.portfolio_main-container h1,
 #portfolio.portfolio_main-container p {
-text-align: center;
-padding-top: 3rem;
+    text-align: center;
+    padding-top: 3rem;
+    color: 0.5px solid rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: -webkit-xxx-large;
 }
 
-#portfolio_card_container{
+#portfolio_card_container {
     width: 50%;
     padding: 10px;
     border: none;
 }
 
-.portfolio_image:hover{
+.portfolio_image:hover {
     cursor: pointer;
     filter: brightness(50%);
 }
 
-.portfolio_click_info{
+.portfolio_click_info {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: var(--font-color);
     display: none;
 }
 
-.portfolio_image:hover + .portfolio_click_info{
+.portfolio_image:hover + .portfolio_click_info {
     display: block;
 }
 
 .modal-backdrop-show {
-    opacity: .1 !important;
+    opacity: 0.1 !important;
 }
 
 #portfolio_modal_link {
@@ -45,10 +48,14 @@ padding-top: 3rem;
     text-decoration: none;
 }
 
+.portfolio_text{
+    color: rgb(218, 218, 218);
+}
+
 @media only screen and (max-width: 600px) {
-    #portfolio_card_container{
+    #portfolio_card_container {
         width: 100%;
         padding: 0.5rem 2.5rem;
         border: none;
-    }  
+    }
 }

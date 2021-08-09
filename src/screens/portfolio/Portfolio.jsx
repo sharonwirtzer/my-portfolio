@@ -63,10 +63,7 @@ function Portfolio() {
 
     return (
         <div className='portfolio_main-container' id='portfolio'>
-            <h1>PORTFOLIO</h1>
-            <p>This is my Github page
-        <a href='https://github.com/sharonwirtzer' target='_blank' rel='noreferrer'> https://github.com/sharonwirtzer</a>
-            </p>
+            <h1 className='portfolio_text'>portfolio.</h1>
             <Container fluid='lg' style={{ padding: '2rem 0' }}>
                 <Row>
                     {mapped}

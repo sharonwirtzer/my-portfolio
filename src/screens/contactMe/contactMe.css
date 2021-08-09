@@ -2,6 +2,7 @@
     background-color: var(--nav-color);
     color: aliceblue;
     padding: 1rem;
+    padding-top: 30px;
 }
 
 .contactMe_data_links{
