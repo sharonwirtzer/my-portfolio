@@ -5,7 +5,7 @@ import './Header.css'
 function Header() {
     return (
         <div className='main-info'>
-            <h1>Hello, I'm  <h1 style={{ color: 'green' }}> Sharon Wirtzer </h1> {/* I'm a Full-Stack web developer. */}</h1>
+            <h1>Hello, I'm  <h1 style={{ color: '#d6740a' }}> Sharon Wirtzer </h1> {/* I'm a Full-Stack web developer. */}</h1>
             <Typed
                 strings={[
                     '',
