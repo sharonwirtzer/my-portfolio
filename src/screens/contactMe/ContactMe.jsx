@@ -15,8 +15,8 @@ function ContactMe() {
                     <SocialIcon url='https://www.linkedin.com/in/sharon-wirtzer/' style={{ height: 40, width: 40 }} />
                     <SocialIcon url='https://github.com/sharonwirtzer' bgColor="#d0d9e3" style={{ height: 40, width: 40, marginLeft:'30px' }} />
                     <SocialIcon url='sharonwirtzer@gmail.com' network="email" style={{ height: 40, width: 40, marginLeft:'30px'}} />
-                    <a  style={{ marginLeft: '100px'}}  href={backHome}>{<img src={arrow} alt='backHome'/>}</a>
-                </div>
+                    <a style={{ marginLeft: '100px'}} href={backHome}> <img src={arrow} alt='arrow icon'/> </a>
+                </div>      
              
             </div>
             <div style={{ textAlign: 'center' }}>Copyright&copy; {new Date().getFullYear()} All rights reserved</div>
