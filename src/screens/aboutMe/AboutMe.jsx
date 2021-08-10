@@ -9,7 +9,7 @@ function AboutMe() {
             <img src={person} alt='person icon'/>
             </div>
             <div className='about_text'>
-                <h1 style={{ color: 'rgb(218, 218, 218)', fontWeight: 'bold', fontSize: 'webkit-xxx-large' }}>about.</h1>
+                <h1 style={{ color: 'rgb(218, 218, 218)', fontSize: '-webkit-xxx-large' }}>about.</h1>
                 <p style={{ color: 'rgb(218, 218, 218)', fontSize: '22px' }}>Full Stack Web Developer, graduated the Coding Academy. Passionate about solving challenges, with experience in writing single-page-applications using the latest WEB technologies. Team player and hard worker.</p>
             </div>
         </div>
@@ -17,3 +17,5 @@ function AboutMe() {
 }
 
 export default AboutMe
+
+

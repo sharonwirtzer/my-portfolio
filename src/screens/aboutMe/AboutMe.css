@@ -39,8 +39,3 @@
     }
 }
 
-@media only screen and (max-width: 900px) {
-    .about_container {
-        flex-direction: column;
-    }
-}

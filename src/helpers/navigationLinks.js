@@ -21,9 +21,5 @@ export const navigationLinks =[
     },
 ]
 
-export const backHome =[
-    {
-        name: 'HOME',
-        ref: '#home'
-    }
-]
+
+export const backHome = navigationLinks[0]
