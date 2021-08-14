@@ -14,7 +14,7 @@ function Portfolio() {
 
     function createModal(data) {
         return (
-            <Modal
+            <Modal style={{ fontSize: '1rem'}}
                 show={modalShow}
                 onHide={() => setModalShow(false)}
                 size='lg'
@@ -32,8 +32,7 @@ function Portfolio() {
                 </Modal.Body>
                 <a id='portfolio_modal_link' href={data.link} target='_blank' rel='noreferrer'>Go to site</a>
                 <modal-Footer>
-                    <div >Technologies used:</div>
-                    <p style={{ fontSize: '0.7rem', marginRight: 'auto'}}>{data.tech}</p>
+                    <p style={{ padding:'1rem'}}>{data.tech}</p>
                     <Button onClick={()=> setModalShow(false)}>Close</Button>
                 </modal-Footer>
             </Modal>

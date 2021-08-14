@@ -7,30 +7,30 @@ const portfolioData=[
     {
         image: Instagrammi,
         link:'http://instagrammi.herokuapp.com/',
-        title:'Instagram clone',
+        title:'Instagrammi',
         summary:'Instagram clone using Vue.js',
-        tech:'Vue | HTML | SCSS | JavaScript'
+        tech:'Vue.js | Sass | Node.js | MongoDB | Websockets'
     },
     {
         image: Appsus,
         link:'https://sharonwirtzer.github.io/sprint-3/#/',
-        title:'"google keep" clone',
+        title:'Appsus',
         summary:'app for keeping things (reference app "google keep")',
-        tech:'HTML | CSS | JavaScript'
+        tech:'Vue.js | HTML | CSS'
     },
      {
         image: MineSweeeper,
         link:'https://sharonwirtzer.github.io/sprint1/',
-        title:'puzzle video game',
-        summary:'Minesweeper is a single-player puzzle video game.',
-        tech:'HTML | CSS | JavaScript'
+        title:'Mine Sweeeper',
+        summary:'Minesweeper is a vintage single-player puzzle video game.',
+        tech:'Vanilla JS | HTML | Canvas | CSS'
     }, 
     {
         image: MemeMaker,
         link:'https://sharonwirtzer.github.io/sprint-2/',
-        title:'Make memes for free in minutes.',
-        summary:'meme generator you can easily take a memorable moment and turn it into a viral meme in minutes.',
-        tech:'HTML | CSS | JavaScript'
+        title:'Meme Maker.',
+        summary:'A meme generator, allowing the user to upload their own pictures and afterwards download, save or publish their creation.',
+        tech:'Vanilla JS | HTML | CSS'
     },
 ]
 

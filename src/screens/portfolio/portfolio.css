@@ -32,6 +32,10 @@
     display: none;
 }
 
+.modal-content{
+    font-family: "Inconsolata", monospace;
+}
+
 .portfolio_image:hover + .portfolio_click_info {
     display: block;
 }
