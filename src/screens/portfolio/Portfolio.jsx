@@ -22,7 +22,7 @@ function Portfolio() {
                 centered
             >
                 <Modal.Header>
-                    <Modal.Title id='contained-modal-title-vcenter'>
+                    <Modal.Title style={{ fontWeight: 'bold' }} id='contained-modal-title-vcenter'>
                         {data.title}
                     </Modal.Title>
                 </Modal.Header>
@@ -33,7 +33,7 @@ function Portfolio() {
                 <a id='portfolio_modal_link' href={data.link} target='_blank' rel='noreferrer'>Go to site</a>
                 <modal-Footer>
                     <p style={{ padding:'1rem'}}>{data.tech}</p>
-                    <Button onClick={()=> setModalShow(false)}>Close</Button>
+                    <Button style={{ margin:'1rem'}} onClick={()=> setModalShow(false)}>Close</Button>
                 </modal-Footer>
             </Modal>
         )

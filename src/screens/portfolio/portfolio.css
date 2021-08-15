@@ -34,7 +34,10 @@
 
 .modal-content{
     font-family: "Inconsolata", monospace;
+     /* background-color: crimson !important;  */
+    font-weight: bold;
 }
+
 
 .portfolio_image:hover + .portfolio_click_info {
     display: block;
