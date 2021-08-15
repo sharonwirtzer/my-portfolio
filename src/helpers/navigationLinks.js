@@ -20,6 +20,3 @@ export const navigationLinks =[
         ref: '#contact'
     },
 ]
-
-
-export const backHome = navigationLinks[0]
