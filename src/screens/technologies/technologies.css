@@ -36,11 +36,6 @@
     border-radius: 50%;
 }
 
-.tech_card:hover {
-    background-color: var(--font-color-hover);
-    transform: scale(1.05);
-}
-
 .technologies_text {
     text-align: "center";
     color: rgb(218, 218, 218);

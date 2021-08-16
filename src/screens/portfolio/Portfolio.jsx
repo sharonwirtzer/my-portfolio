@@ -54,7 +54,7 @@ function Portfolio() {
                         setModalShow(true)
                     }}
                     src={e.image} />
-                <div className='portfolio-click-info'> &#x1f50E;&#xFE0E; </div>
+                
                 {createModal(tempData)}
             </Card>
         )
