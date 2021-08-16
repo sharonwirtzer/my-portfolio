@@ -64,4 +64,8 @@
         width: 100%;
         object-fit: cover;
     }
+
+    .portfolio_image{
+        object-fit: cover;
+    }
 }
