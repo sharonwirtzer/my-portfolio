@@ -67,5 +67,6 @@
 
     .portfolio_image{
         object-fit: cover;
+        height: 154px;
     }
 }
